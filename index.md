@@ -4,7 +4,7 @@
 
 
 <body>
-<img src="img/logo.svg" />
+<img width="200 px" src="img/logo.svg" />
 
 
 </body>
