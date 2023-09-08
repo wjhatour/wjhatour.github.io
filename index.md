@@ -4,7 +4,7 @@
 
 
 <body>
-<img src="img/wjhalogo.svg" />
+<img src="img/logo.svg" />
 
 
 </body>
