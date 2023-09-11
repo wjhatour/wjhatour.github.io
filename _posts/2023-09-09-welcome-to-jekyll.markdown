@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "image prev test"
+title:  "Github test of post"
 author: someone
 date:   2023-09-01 08:03:25 +0300
 categories: acc

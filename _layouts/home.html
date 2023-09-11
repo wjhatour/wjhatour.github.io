@@ -101,13 +101,14 @@ box-shadow: 3px 6px 11px 0px rgba(0,0,0,0.23);
          <div style=" height: 100%;"> 
 
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-           <div>
-            <h3 style="color: #443742; margin: 0px; font-size: 15px;">
+           <div style="padding: 3px 0px;">
+            <span style="font-size: 10px; color: lightgray; ">{{ post.date | date: date_format }}</span>
+            <h3 style="color: #443742; margin: 0px; padding: 0px; font-size: 15px; font-weight: bold;">
              
                 {{ post.title | escape }}
         
             </h3>
-            <span style="font-size: 10px; color: lightgray; ">{{ post.date | date: date_format }}</span>
+           
            </div>
 
            <div>
