@@ -10,5 +10,5 @@ firsth: "First Highlight of the post "
 secondh: "Second Highlight of the post "
 thirdh: "Third Highlight of the post "
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many 
+You’ll find this post in your `_posts` directory. <br/> `First Highlight of the post` <br/> Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many 
 
