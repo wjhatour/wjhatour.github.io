@@ -2,29 +2,31 @@
 layout: default
 ---
 
-<div style="padding: 10px 0px;">
+<div style="padding: 5px 0px;">
 
 
-<div style="width: 100%; height:50px;border-radius: 10px; background-color: #FFCC00; display: flex; justify-content: center; align-items: center;">
+<div style="width: 100%; height:100px;border-radius: 10px; background-color: #FFCC00; display: flex; justify-content: center; align-items: center;">
   <span style="color: white;">advert</span>
   </div>
 </div>
 
 <div class="home">
 
-  <div style="padding: 10px 0px; margin-bottom: 10px;">
-<div style="width: 100%; height:100px;border-radius: 10px; background-color: blueviolet; display: flex; justify-content: center; align-items: center;">
-<span style="color: white;">Feature advert</span>
+  <div style="padding: 5px 0px; margin-bottom: 10px;">
+<div style="width: 100%; border-radius: 10px; ">
+  <img src="img/banner.jpg" />
 </div>
 </div>
 
 
-<div style="padding: 10px 0px;">
+
+<div style="padding: 10px 0px 5px 0px;">
   <div style="width: 100%; height:50px;border-radius: 10px; background-color: grey; display: flex; justify-content: center; align-items: center;">
   <span style="color: white;">catt</span>
   </div>
   </div>
 
+  <div class="postSection" style="height: 100vh; background-color: azure;">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -38,8 +40,8 @@ layout: default
       
       
 
-      <div style="padding: 10px 0px;">
-      <div style="background-color: aqua; ">
+      <div style="padding: 5px 0px;">
+      <div style=" ">
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -57,8 +59,10 @@ layout: default
   </div>
       {%- endfor -%}
     </ul>
+  </div>
 
     <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
 
 </div>
+
