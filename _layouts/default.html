@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+<style>
+
+.wrappers {
+  max-width: -webkit-calc(600px - (30px * 2));
+  max-width: calc(600px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 800px) {
+  .wrappers {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
+</style>
+
+
   {%- include head.html -%}
 
   <body>
@@ -8,7 +31,7 @@
     {%- include header.html -%}
 
     <main style="padding: 0px;" class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <div class="wrappers">
         {{ content }}
       </div>
     </main>
