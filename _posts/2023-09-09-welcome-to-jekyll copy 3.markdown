@@ -4,7 +4,7 @@ title:  " التنقل في أديس أبابا"
 author: Naji Ali
 date:   2023-09-15 05:03:25 +0300
 categories: acc
-img: <img  width="100%" height="200px" src="/img/915T5pm.jpg"  />
+img: <img  width="100%" src="/img/915T5pm.jpg"  />
 imgsrc: "/img/915T5_thpm.jpg" 
 firsth: " الحافلات العامة"
 secondh: "تطبيق رايد "
