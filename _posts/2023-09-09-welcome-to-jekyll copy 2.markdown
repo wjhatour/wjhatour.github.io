@@ -4,7 +4,7 @@ title:  "السكن في أديس أبابا."
 author: Naji Ali
 date:   2023-09-15 05:03:25 +0300
 categories: acc
-img: <img  width="100%" height="200px" src="/img/915T5pm.jpg"  />
+img: <img  width="100%" height="200px" src="/img/915T540pm.jpg"  />
 imgsrc: "/img/915T5pm_th.jpg" 
 firsth: "تبدا من 500 بر اثيوبي للغرفة "
 secondh: " شقق مفروشة يتراوح سعرها من 35,000 بر للشهر "
