@@ -34,5 +34,86 @@ layout: default
     {% include navlinks.html %}
   </div>
 
+
+  <div style="display: flex; flex-direction: column;">
+<div style="float: right; text-align: right; font-weight: bold;">  <h2>ذات صلة:</h2></div>
+
+
+<div>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    
+    
+
+    <div style="padding: 5px 0px;">
+
+      <a  href="{{ post.url | relative_url }}">
+    <div style="padding: 0px; border-radius: 10px; 
+ height:100%;
+ -webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+-moz-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+
+    display: flex; justify-content: space-between; align-items: center;">
+  
+     
+
+
+
+      <div style="padding: 5px 15px; display: flex;  height: 100%; width: 60%; 
+      flex-direction: column; align-items:flex-start ; justify-content: space-between;">
+       <div style=" height: 100%;"> 
+
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+         <div style="padding: 3px 0px;">
+         
+          <h3 style="color: #443742; margin: 0px; padding: 0px; font-size: 17px; font-weight: bold;">
+           
+              {{ post.title | escape }}
+      
+          </h3>
+          <span style="font-size: 10px; color: lightgray; margin-left: 5px; ">{{ post.date | date: date_format }}</span>
+         
+         </div>
+
+         <div>
+          <ul style="padding: 0px; margin: 0px; margin-left: 20px; font-size: smaller; color: #443742; text-decoration: none;">
+            <li >
+             {{post.firsth}}
+            </li>
+            <li>
+              {{post.secondh}}
+            </li>
+            <li>
+              {{post.thirdh}}
+            </li>
+            
+          </ul>
+         
+         </div>
+
+
+       
+       </div>
+      </div>   
+
+      <div style="width: 40%; height: 100%;">
+
+        <img style="border-radius: 0px 10px 10px 0px;" src={{post.imgsrc}} />
+       
+       </div> 
+      
+     
+     
+   
+
+  </div>
+  </a>
+</div>
+    {%- endfor -%}
+  </ul>
+</div>
+</div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
