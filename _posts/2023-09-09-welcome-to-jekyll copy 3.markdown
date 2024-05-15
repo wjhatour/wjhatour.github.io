@@ -44,3 +44,8 @@ thirdh: " تطبيق فرس  "
 <a href="https://play.google.com/store/apps/details?id=com.feres.user&hl=en&gl=US">اندرويد : </a>
 
 <a href="https://apps.apple.com/ke/app/feres/id1477739364">ايفون : </a>
+
+
+
+
+للتواصل:https://wa.me/251715130450
