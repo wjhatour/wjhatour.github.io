@@ -8,7 +8,8 @@ categories: alerts
 
 
 ##  التنويه.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla est, ullamcorper nec vestibulum at, ullamcorper a sapien. Aenean auctor, ante at vestibulum fringilla, urna lacus consequat mi, facilisis semper risus nisl vel diam. Fusce maximus massa in elementum rhoncus. Maecenas dignissim mollis risus, vitae iaculis tellus fermentum vitae.
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla est, ullamcorper nec vestibulum at, ullamcorper a sapien. Aenean auctor, ante at vestibulum fringilla, urna lacus consequat mi.
 
 <!-- [موقع المطعم](<https://shorturl.at/afrFK>) -->
 
