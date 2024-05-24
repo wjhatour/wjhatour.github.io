@@ -1,6 +1,6 @@
 
 div{
-  font-family: 'Rubik', sans-serif !important;
+  font-family: 'Segoe UI', sans-serif !important;
 }
 
 hr {
@@ -12,6 +12,7 @@ hr {
 .post_navi {
   display: flex;
 }
+
 
 
 
