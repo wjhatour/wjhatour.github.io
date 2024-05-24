@@ -1,19 +1,250 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+.bgg{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+.wrappers {
+  max-width: -webkit-calc(600px - (30px * 2));
+  max-width: calc(600px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 800px) {
+  .wrappers {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - (30px));
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
+</style><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="author" content="Mujahid Abasalih" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Find helpfull tips and links." />
+<meta property="og:description" content="Find helpfull tips and links." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Mujahid Abasalih"},"description":"Find helpfull tips and links.","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="" /><script src="https://kit.fontawesome.com/bed3b89172.js" crossorigin="anonymous"></script>
+  <!-- highlight.js support -->
+  <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
+  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <script type="text/javascript" src="/js/highlightjs/highlight.min.js"></script>
+  <meta data-n-head="ssr" name="title" content="wjha | وجهة معلومات للسودانيين في اثيوبيا">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300&family=Tangerine&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3026772584456466" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.js" integrity="sha512-zPMZ/3MBK+R1rv6KcBFcf7rGwLnKS+xtB2OnWkAxgC6anqxlDhl/wMWtDbiYI4rgi/NrCJdXrmNGB8pIq+slJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <script type="text/javascript" src="/js/highlightjs/languages/plaintext.min.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/powershell.min.js"></script>
+  <script type="text/javascript" src="/js/highlightjs/languages/tsql.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-64NVNT1656"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-64NVNT1656');
+</script>
+
+
+  <script type="text/javascript"> hljs.highlightAll(); </script>
+  <!-- end highlight.js support -->
+</head><body>
+  
+  
+  <!-- <header class="site-header" role="banner">
+
+  <div class="wrapper">
+<title style="display: none;">Wjha | وجهة</title>
+<div style="display: flex; justify-content:space-between; align-items: center;">
+
+  <div style="padding: 10px; padding-left: 0;">
+    <img width="90 px" src="/img/logo.svg" />
+    </div>
+
+
+   
+    <a href="https://wa.me/+251715130450?text=textme">
+  <div style="display: flex; justify-content: flex-end; align-items: center;">
+
+
+    <div style="padding: 10px; font-size: 20px; font-weight: bold; color: #25D366;">عندك سؤال؟</div>
 
 
 
-<div style="padding: 10px 0px 0px 0px; margin-bottom: 10px;">
-  <div style="width: 100%;  ">
-    <img style="border-radius: 10px;" src="img/bann.svg" />
+
+
+    <div>
+      
+        <div style=" width: 40px; height: 40px;background-color: #25D366; display: flex; justify-content: center; align-items: center; border-radius: 100%;">
+          <i style="font-size: 23px; color: white;" class="fa-brands fa-whatsapp"></i>
+        
+          </div>
+          
+
+
+
+          
+
+    </div>
+
+    
+
+  </div>
+</a>
+
+ 
+   
+
+</div>
+   
+
+  
+  </div>
+</header> -->
+
+  {%- include header.html -%}
+
+<main style="padding: 0px;" class="page-content" aria-label="Content">
+      <div class="wrappers">
+        <div style="padding: 10px 0px 0px 0px; margin-bottom: 10px;">
+  <div style="width: 100%;   ">
+    
   </div>
   </div>
 
-<div class="home">
+
+  <div id="printdiv" class="bgg" style="display: flex; align-items:center; justify-content: center;
+   width: 100%; margin-bottom: 10px;  border-radius: 5px; color: white;"> 
+   <div   style=" width: 100%; padding: 15px; background-color: rgba(0,0,0,0.09);" >
+
+    <div style="display: flex; padding: 25px; padding-bottom: 5px;  align-items: center; justify-content: flex-start;">
+      <img width="70 px" src="/img/allinone.svg" />
+    </div>
+
+    <div style="position: absolute; display: block; transform: rotate(-45deg); opacity: 0.4;  top:50px;right: 170px;  ">
+      <img  width="170 px" src="/img/dec3.svg "  />
+    </div>
 
 
-  <div style="padding: 5px 0px;">
+
+<!-- {% comment %} 
+      <div>{{site.alerts[site.alerts.length].title}}</div> {% endcomment %}
+       {% comment %} {%- for alert in site.alerts -%}
+        {% if page.next == nil %}
+          <div style="padding: 5px 0px;">
+            <a  href="{{ alert.url | relative_url }}">
+         <div>
+          {{ alert.title}}
+         </div>
+        </a>
+      </div>   
+        {% endif %}
+        {%- endfor -%}  {% endcomment %} -->
+        <div  dir="rtl"   style="padding: 25px; z-index: 15 !important;   padding-top: 5px;">    
+        {{site.alerts.last.content | markdownify }}
+    </div>
+
+    
+
+
+    <div id="imgfooter" style="display: none; padding: 25px; margin-top: 0px;    align-items: center; justify-content: space-between;">
+      <div style="display: flex; align-items: center;">
+
+     <div style="margin-right: 10px; font-size: 30px; padding-right: 10px; border-right: 3px solid white;">
+      <i class="fa-brands fa-whatsapp"></i>
+     </div>
+     
+     <div style="font-weight: bold;">
+      +251 715130450       
+     </div>
+
+      </div>
+
+  <div style="display: flex; align-items: center;   justify-content: center; ">
+    
+    <div  style="margin-right: 10px; padding-right: 0px; border-right: 2px solid white;">
+      <img  width="50px" src="/img/logowhiteyellow.svg" />
+            
+          </div >
+            <div style="float: right; ">
+              https://wjhatour.github.io
+            </div>
+
+  </div>
+    </div>
+  
+  </div>
+  </div>
+
+ 
+
+  <div  style="display: flex;  
+  
+  transition: all 0.5s; justify-content: flex-start; align-items: center;">
+   <div id="imgbtn" onclick="provokeDownload();" style=" color:
+    white; cursor: pointer;  border-radius: 4px; color: #00CC66; font-weight: bold;">
+<div style="display: flex;
+padding: 10px;
+border-radius: 5px;
+  -webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+-moz-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+align-items: center; justify-content: center;">
+
+<div id="shareicon" style="display: flex; align-items: center; justify-content: center; margin-right: 10px;">
+  <i class="fa-regular fa-share-from-square"></i>
+</div>
+
+
+<img id="lod" width="20px" style="margin-right: 10px; display: none; " src="/img/loading.svg.svg" />
+
+<div style="" id="btntext">
+مشاركة
+</div>
+</div>
+
+   </div>
+    <div>
+
+    </div>
+  
+    </div>
+
+<div style="margin-top: 10px;" class="home">
+
+
+  <div  style="padding: 5px 0px; ">
 
  
     <div style="width: 100%; height:50px;border-radius: 10px; 
@@ -21,185 +252,202 @@ layout: default
     
 
     
-    display: flex; justify-content: center; align-items: center; font-size: 15px;">
+    display: flex; justify-content: space-between; align-items: center; font-size: 15px;">
 
-      <div style="display: flex; margin: 5px; justify-content: center; align-items: center;
+      <div style="display: flex; margin: 0px; justify-content: center; align-items: center;
       -webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
 -moz-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
 box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23); padding: 15px; border-radius: 10px;
       ">
-         <div> BIRR <b>16.7 </b> SDG  </div>    <div><i style="color: green; margin: 0px 5px;" class="fa-solid fa-arrow-trend-up">
+         <div> BIRR <b>17.2 </b> SDG  </div>    <div><i style="color: green; margin: 0px 5px;" class="fa-solid fa-arrow-trend-up">
            
          </i></div> <span style="color: lightgray;">0.4</span>
         </div>
 
-       
-      </div>
-
-       <div> BIRR <b>16.7 </b> SDG  </div>    <div><i style="color: green; margin: 0px 5px;" class="fa-solid fa-arrow-trend-up">
-           
-         </i></div> <span style="color: lightgray;">0.4</span>
-        </div>
-
-       
-      </div>
-      
-
-        <!-- <div style="display: flex; margin: 5px; justify-content: center; align-items: center;
+        <div style="display: flex; margin: 0px; justify-content: center; align-items: center;
         -webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
   -moz-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
   box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23); padding: 15px; border-radius: 10px;
         ">
-           <div> BIRR <b>7.1 </b> SDG  </div>    <div><i style="color: green; margin: 0px 5px;" class="fa-solid fa-arrow-trend-up"></i></div> <span style="color: lightgray;">0.2</span>
-          </div> -->
-
-        
-
-        
-
+           <div> USD <b>112</b> BIRR  </div>    <div><i style="color: green; margin: 0px 5px;" class="fa-solid fa-arrow-trend-up">
+             
+           </i></div> <span style="color: lightgray;">0.4</span>
+          </div>
+          
 
 
 
+       
+            
 
+            
+  
       </div>
     </div>
 
 
 
-<div style="padding: 10px 0px 5px 0px;">
-  <div style=" padding: 10px 0px; border-radius: 10px; display: flex; justify-content: space-between;
-   align-items: center; overflow: scroll; width: auto;">
+  <div class="postSection">
+<!-- <h2 class="post-list-heading">Posts</h2> -->
 
 
-<div style=" margin-right: 7px; border-radius: 5px; padding: 5px; font-size: 13px; height: 40px; background-color: #443742; display: flex; justify-content: center; align-items: center; ">
-  <span style="padding: 5px; font-size: 17px; color: white;"><i class="fa-solid fa-list"></i></span>
-  <span style="color: white; font-weight: bold; padding: 5px;">All</span>
-</div>
-  
-<div style=" margin-right: 7px; border-radius: 5px; padding: 5px; font-size: 13px; height: 40px; background-color: #443742; opacity: 0.4; display: flex; justify-content: center; align-items: center; ">
-  <span style="padding: 5px; font-size: 17px; color: white;"><i class="fa-solid fa-house"></i></span>
-  <span style="color: white; font-weight: bold; padding: 5px;">Accommodation</span>
-</div>
 
-<div style="  margin-right: 7px;   border-radius: 5px; padding: 5px; font-size: 13px; height: 40px; background-color: #443742; opacity: 0.4; display: flex; justify-content: center; align-items: center; ">
-  <span style="padding: 5px; font-size: 17px; color: white;">
-    <i class="fa-solid fa-location-dot"></i>
-  </span>
-  <span style="color: white; font-weight: bold; padding: 5px;">Guide</span>
-</div>
-
-<div style="  margin-right: 7px; border-radius: 5px; padding: 5px; font-size: 13px; height: 40px; background-color: #443742; opacity: 0.4; display: flex; justify-content: center; align-items: center; ">
-  <span style="padding: 5px; font-size: 17px; color: white;">
-    <i class="fa-solid fa-money-bill"></i>
-  </span>
-  <span style="color: white; font-weight: bold; padding: 5px;">Currency</span>
-</div>
-
-<div style="  margin-right: 7px; border-radius: 5px; padding: 5px; font-size: 13px; height: 40px; background-color: #443742; opacity: 0.4; display: flex; justify-content: center; align-items: center; ">
-  <span style="padding: 5px; font-size: 17px; color: white;">
-    <i class="fa-solid fa-bowl-food"></i>
-  </span>
-  <span style="color: white; font-weight: bold; padding: 5px;">Food</span>
-</div>
-  
-
-   
-
-        
+<div style="width: 100%;">
+  <ul class="post-list">
+    {%- for post in site.posts -%}
 
 
-  </div>
-  </div>
 
-  <div class="postSection" background-color: azure;">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div style="margin-top: 15px;">
 
-  {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      
-      
-
-      <div style="padding: 5px 0px;">
-
-        <a  href="{{ post.url | relative_url }}">
-      <div style="padding: 0px; border-radius: 10px; 
-   height:100%;
-   -webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
+<a  href={{ post.url | relative_url }}>
+  <div style="padding: 0px; border-radius: 10px; 
+height:100%;
+-webkit-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
 -moz-box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
 box-shadow: 3px 6px 11px -3px rgba(0,0,0,0.23);
 
-      display: flex; justify-content: space-between; align-items: center;">
+  display: flex; justify-content: space-between; align-items: center;">
+
+   
+
+
+
+    <div style="padding: 5px 15px; display: flex;  height: 100%; width: 60%; 
+    flex-direction: column; align-items:flex-start ; justify-content: space-between;">
+     <div style=" height: 100%;"><div style="padding: 3px 0px;">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h3 style="color: #443742; margin: 0px; padding: 0px; font-size: 17px; font-weight: bold;">
+         
+           {{post.title}}
     
+        </h3>
+        <span style="font-size: 10px; color: lightgray; margin-left: 5px; ">{{ post.date | date: date_format }}</span>
        
+       </div>
 
-
-
-        <div style="padding: 5px 15px; display: flex;  height: 100%; width: 60%; 
-        flex-direction: column; align-items:flex-start ; justify-content: space-between;">
-         <div style=" height: 100%;"> 
-
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-           <div style="padding: 3px 0px;">
-           
-            <h3 style="color: #443742; margin: 0px; padding: 0px; font-size: 17px; font-weight: bold;">
-             
-                {{ post.title | escape }}
-        
-            </h3>
-            <span style="font-size: 10px; color: lightgray; margin-left: 5px; ">{{ post.date | date: date_format }}</span>
-           
-           </div>
-
-           <div>
-            <ul style="padding: 0px; margin: 0px; margin-left: 20px; font-size: smaller; color: #443742; text-decoration: none;">
-              <li >
-               {{post.firsth}}
-              </li>
-              <li>
-                {{post.secondh}}
-              </li>
-              <li>
-                {{post.thirdh}}
-              </li>
-              
-            </ul>
-           
-           </div>
-
-
-         
-         </div>
-        </div>   
-
-        <div style="width: 40%; height: 100%;">
-
-          <img style="border-radius: 0px 10px 10px 0px;" src={{post.imgsrc}} />
-         
-         </div> 
-        
+       <div>
+        <ul style="padding: 0px; margin: 0px; margin-left: 20px; font-size: smaller; color: #443742; text-decoration: none;">
+          <li >
+            {{post.firsth}}
+          </li>
+          <li>
+            {{post.thirdh}} 
+          </li>
+          <li>
+            {{post.thirdh}}
+          </li>
+          
+        </ul>
        
-       
+       </div>
+
+
      
+     </div>
+    </div>   
 
-    </div>
-    </a>
-  </div>
-      {%- endfor -%}
-    </ul>
+    <div style="width: 40%; height: 100%;">
+
+      <img style="border-radius: 0px 10px 10px 0px;" src={{post.imgsrc}} />
+     
+     </div> 
+    
+   
+   
+ 
+
+</div>
+</a>
+
+</div>
+
+    {%- endfor -%}
+
+
+
+    
+
+
+
+  </ul>
+</div>
+
+   
   </div>
 
   <div style="width: 100%; border-radius: 10px; height: 40px; background-color: #00CC66; display: flex; justify-content: center; align-items: center; ">
     <span style="color: white; font-weight: bold;">تابعنا للمزيد &#9889;</span>
     </div>
 
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-  {%- endif -%}
+    <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> --></div>
 
+
+    <script>
+
+
+function provokeDownload(params) {
+  
+  document.getElementById("imgfooter").style.display="flex";
+ document.getElementById("btntext").innerHTML = "جار تحميل الصورة"
+ document.getElementById("lod").style.display="block";
+ document.getElementById("shareicon").style.display="none"
+    htmlToImage.toJpeg(document.getElementById('printdiv'), { quality: 10 })
+  .then(function (dataUrl) {
+    var link = document.createElement('a');
+    link.download = 'my-image-name.jpeg';
+    link.href = dataUrl;
+    link.click();
+    document.getElementById("imgfooter").style.display="none";
+    
+ document.getElementById("btntext").innerHTML = "مشاركة"
+ document.getElementById("lod").style.display="none";
+ document.getElementById("shareicon").style.display="block"
+  });
+  
+    
+
+
+}
+
+
+$( document ).ready(function() {
+  startanimation();
+});
+
+
+function startanimation(params) {
+document.getElementById("imgbtn").classList
+}
+
+
+    </script>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading"></h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list"><li><a class="u-email" href="mailto:"></a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.facebook.com/%40wjhatour"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#facebook"></use></svg> <span class="username">@wjhatour</span></a></li><li><a href="https://github.com/%40stanoid"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">@stanoid</span></a></li><li><a href="https://instagram.com/%40wjhatour"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg> <span class="username">@wjhatour</span></a></li><li><a href="https://www.twitter.com/%40wjhatour"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">@wjhatour</span></a></li><li><a href="/feed.xml"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg> <span>rss</span></a></li></ul>
 </div>
 
+      <div class="footer-col footer-col-3">
+        <p>Find helpfull tips and links.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
