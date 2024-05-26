@@ -412,7 +412,7 @@ function provokeDownload(params) {
     htmlToImage.toJpeg(document.getElementById('printdiv'), { quality: 10 })
   .then(function (dataUrl) {
     var link = document.createElement('a');
-    link.download = 'my-image-name.jpeg';
+    link.download = Date.now().toString + '.jpg';
     link.href = dataUrl;
     link.click();
     document.getElementById("imgfooter").style.display="none";
